@@ -1,4 +1,4 @@
-
+# criando branch dev
 ## File spark job for emr
 # resource "aws_s3_object" "codigo_spark_emr" {
 #   bucket = aws_s3_bucket.datalake.id #Referêrncia do datalake criado
