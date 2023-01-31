@@ -10,7 +10,8 @@
 
 ### Tasks:
 1. Ingest the 2020 RAIS Public Affiliations data into AWS S3
-   - Data available at: [ftp://ftp.mtps.gov.br/pdet/microdados/]
+   - Data available at: [RAIS and CAGED Microdata](http://pdet.mte.gov.br/microdados-rais-e-caged) 
+
 
 2. Clean the 2020 RAIS dataset:
    a. Modify column names, replacing spaces with "_"
@@ -29,3 +30,7 @@
 6. Use a Big Data tool or Data Lake engine (or BigQuery, if you choose to work with Google Cloud) to investigate the data and answer the challenge questions.
 
 7. When the architecture design is complete, create a repository on Github (or Gitlab, Bitbucket, or another of your choice) and put the IaC code for infrastructure deployment. No resources should be deployed manually.
+
+### Solution Architecture:
+
+![AWS Terraform](/imgs/challenge_mod1_diagram.jpg)
