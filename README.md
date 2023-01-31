@@ -33,4 +33,4 @@
 
 ### Solution Architecture:
 
-![AWS Terraform](/imgs/challenge_mod1_diagram.jpg)
+![AWS Terraform](/imgs/challenge_mod1_diagram.png)
