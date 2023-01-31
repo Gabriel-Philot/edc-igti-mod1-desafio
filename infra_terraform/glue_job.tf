@@ -2,7 +2,7 @@
 resource "aws_glue_job" "glue_job_rais" {
   name     = "${var.glue_job_name}" # Nome do Job que será exibido no console.
   role_arn = "${var.iam_arn}" # Está sendo selecionada a IAM role já existente, criada anteriormemte.
-  max_retries = "1" # Máximo de tentativas de execução.
+  max_retries = "1" ## Máximo de tentativas de execução.
   timeout = 2880 
   command {
     # Path do bucket S3 onde está gravado o arquivo pyspark com o código do glue job a ser executado.
